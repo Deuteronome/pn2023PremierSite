@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(126, 137, 147);
+    
+}
+
+.bouton {
+    display : block;
+    background-color: brown;
+    color: wheat;
+    border : black 3px solid;
+    border-radius: 5px;
+    width : 10vw;
+    margin: 5px;
+    padding : 5px;
+    text-align: center;
+}
