@@ -8,13 +8,14 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family:"BrittaniRenata"
+    
 }
 
 
 
 body {
     background-color: rgb(255, 255, 255);
+    font-family:"BrittaniRenata"
 }
 
 header {
@@ -74,6 +75,7 @@ main {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    font-family: "Century Gothic";
     
 }
 
@@ -208,4 +210,62 @@ h2, h3 {
 
 .two-parts>div {
     width : 45%;
+}
+
+#userGuess {
+    width : 50%;
+    padding: 5px;
+}
+
+#validate {
+    padding : 5px;
+    width : 20%
+}
+
+
+
+
+.sticker {
+    text-align: center;
+    padding: 15px;
+    box-shadow: rgb(0, 0, 0) 5px 5px 10px 1px;
+    width : 70vw;
+    margin-bottom: 5vh;
+}
+
+
+
+.winLine {
+    font-weight: 700;
+    text-align: center;
+}
+
+.gameLine {
+    text-align: center;
+}
+
+#mainSquare {
+    box-shadow: rgb(0, 0, 0) 5px 5px 10px 1px;
+    height : 45vh ;
+    width : 45vh ;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.square{
+    border : black solid 1px;
+    height: 12vh;
+    width: 12vh;
+}
+
+.square:hover {
+    background-color:rgb(171, 171, 170);
+}
+
+.icon {
+    height: 12vh;
+    width: 12vh;
 }

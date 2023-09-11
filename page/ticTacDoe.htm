@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Morpion</title>
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/morpion.js" defer></script>
     </head>
     <body>
         <header>
@@ -14,14 +15,29 @@
             <a href="../index.htm" class="bouton">Accueil</a>
             <a href="./cv.htm" class="bouton">CV</a>
             <a href="./carte.htm" class="bouton">les cartes</a>
-            <a href="./ticTacDoe.htm" class="bouton">Ti Tac Doe</a>
+            <a href="./ticTacDoe.htm" class="bouton">Tic Tac Doe</a>
             <a href="./myLife.htm" class="bouton">Ma vie, mon oeuvre</a>
         </nav>
         <main>
+            <div id="gameSelect" class="sticker">
+                <label for="gameMenu">Choisissez un jeu :</label>
+                <select id="gameMenu">
+                    <option value=0 selected>----</option>
+                    <option value=1>Le nombre mystère</option>
+                </select>
+            </div>
 
+            <div id="gameZone">
+                
+            </div>
+                
+
+            </div>
         </main>
         <footer>
             <p> Contact : <a href="mailto:o.burcker@e2c-grandlille.fr">mon mail</a></p>
         </footer>
+       
     </body>
+    
 </html>
